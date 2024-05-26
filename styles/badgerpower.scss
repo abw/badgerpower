@@ -10,3 +10,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.has-svgs svg {
+  path.name, path.badger {
+    fill: #3451b2;
+  }
+}

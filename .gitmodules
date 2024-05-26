@@ -13,3 +13,18 @@
 [submodule "badger-color"]
 	path = badger-color
 	url = https://github.com/abw/badger-color.git
+[submodule "badger-js"]
+	path = badger-js
+	url = https://github.com/abw/badger-js.git
+[submodule "badger-timestamp"]
+	path = badger-timestamp
+	url = https://github.com/abw/badger-timestamp.git
+[submodule "badger-utils"]
+	path = badger-utils
+	url = https://github.com/abw/badger-utils.git
+[submodule "badger-filesystem-js"]
+	path = badger-filesystem-js
+	url = https://github.com/abw/badger-filesystem-js.git
+[submodule "badger-database-js"]
+	path = badger-database-js
+	url = https://github.com/abw/badger-database-js.git
