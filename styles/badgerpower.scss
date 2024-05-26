@@ -1,0 +1,12 @@
+@charset "utf-8";
+@import '@abw/badger-css/styles/badger.scss';
+@import '@abw/badger-react-ui/styles/badger-react-ui.scss';
+
+html {
+  font-family: var(--font-sans);
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,12 @@
+[submodule "badger-css"]
+	path = badger-css
+	url = https://github.com/abw/badger-css.git
+[submodule "badger-react-ui"]
+	path = badger-react-ui
+	url = https://github.com/abw/badger-react-ui.git
+[submodule "badger-form"]
+	path = badger-form
+	url = https://github.com/abw/badger-form.git
+[submodule "badger-icon"]
+	path = badger-icon
+	url = https://github.com/abw/badger-icon.git
