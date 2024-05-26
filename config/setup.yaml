@@ -1,0 +1,38 @@
+# standard options
+yes:            true
+verbose:        true
+quiet:          true
+
+# custom project options
+options:
+  #---------------------------------------------------------------------------
+  # Project
+  #---------------------------------------------------------------------------
+  -
+    title:      Project Configuration
+    info:       Please answer the following questions to setup the project.
+  -
+    name:       root
+    about:      Project directory
+    prompt:     Where is the project root directory on this machine?
+    pattern:    <dir>
+    required:   true
+    envvar:     ROOT_DIR
+  -
+    name:       deployment
+    about:      Deployment type
+    prompt:     What kind of deployment is this?
+    type:       select
+    pattern:    <type>
+    required:   true
+    default:    development
+    choices:
+      -
+        title:  development
+        value:  development
+      -
+        title:  staging
+        value:  staging
+      -
+        title:  production
+        value:  production

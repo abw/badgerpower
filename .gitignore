@@ -1,3 +1,11 @@
+# Local configuration files
+.env
+.env.yaml
+
+# Scaffolded files
+/etc/httpd.conf
+/etc/vhost.conf
+
 # Logs
 logs
 *.log
@@ -22,3 +30,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
