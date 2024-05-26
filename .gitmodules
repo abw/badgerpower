@@ -10,3 +10,6 @@
 [submodule "badger-icon"]
 	path = badger-icon
 	url = https://github.com/abw/badger-icon.git
+[submodule "badger-color"]
+	path = badger-color
+	url = https://github.com/abw/badger-color.git

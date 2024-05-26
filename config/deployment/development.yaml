@@ -1,0 +1,6 @@
+domain: badgerpower.local.wardley.org
+
+ssl:
+  cert:     etc/badgerpower.local.wardley.org.crt
+  key:      etc/badgerpower.local.wardley.org.key
+  options:  etc/ssl_options.conf
