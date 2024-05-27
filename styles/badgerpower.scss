@@ -11,8 +11,63 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#site {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
 .has-svgs svg {
   path.name, path.badger {
     fill: #3451b2;
+  }
+}
+
+svg #badger-letters {
+  .b {
+    fill: var(--red-50);
+  }
+  .a {
+    fill: var(--brown-50);
+  }
+  .d {
+    fill: var(--orange-50);
+  }
+  .g {
+    fill: var(--yellow-50);
+  }
+  .e {
+    fill: var(--olive-50);
+  }
+  .r {
+    fill: var(--green-50);
+  }
+}
+svg #power-letters {
+  .p {
+    fill: var(--teal-50);
+  }
+  .o {
+    fill: var(--blue-50);
+  }
+  .w {
+    fill: var(--indigo-50);
+  }
+  .e {
+    fill: var(--violet-50);
+  }
+  .r {
+    fill: var(--purple-50);
+  }
+}
+
+svg.oss {
+  max-width: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--blue-50);
+  &:hover {
+    color: var(--blue-40);
   }
 }
