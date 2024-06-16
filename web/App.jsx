@@ -18,7 +18,9 @@ import Link from './Link.jsx'
 export const App = () =>
   <div id="site">
     <div className="conform-tablet has-svgs">
-      <BadgerPower/>
+      <div className="full-width conform-tablet grey bgc-50 pad-v-16">
+        <BadgerPower/>
+      </div>
       <h1 className="x2 mar-v-8">
         Free software by Andy Wardley, for Andy Wardley
       </h1>
