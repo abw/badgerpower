@@ -1,0 +1,6 @@
+domain: badgerpower.com
+
+ssl:
+  cert:     /etc/letsencrypt/live/badgerpower.com/fullchain.pem
+  key:      /etc/letsencrypt/live/badgerpower.com/privkey.pem
+  options:  etc/ssl_options.conf
