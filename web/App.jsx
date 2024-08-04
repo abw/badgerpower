@@ -141,7 +141,7 @@ export const App = () =>
       <p>
         The Perl Badger modules are still alive and well, but they&apos;re
         not really actively maintained any more.  Although I still have lots
-        of old websites running Perl code I do most of my development in
+        of old websites running Perl code, I do most of my development in
         Javascript these days.
       </p>
       <Link
