@@ -38,8 +38,8 @@ export const App = () =>
             It&apos;s free sofware
             in <strike>both</strike> all three senses: <i>free beer</i>,{' '}
             <i>free speech</i> and <i>free weekend</i>. You don&apos;t have
-            to pay anything to use it (that&apos;t the <i>free beer</i> part).
-            You can do what you like with it within reason (that&apos;t the{' '}
+            to pay anything to use it (that&apos;s the <i>free beer</i> part).
+            You can do what you like with it within reason (that&apos;s the{' '}
             <i>free speech</i> part). But be warned that it comes comes
             &quot;AS IS&quot; with no warranty and no support.  Sorry, but I
             have no desire to give up my free time to provide free support to
