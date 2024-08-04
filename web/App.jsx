@@ -12,8 +12,9 @@ import BadgerUtils      from '@/svg/badger-utils.svg?react'
 import BadgerTimestamp  from '@/svg/badger-timestamp.svg?react'
 import OSS              from '@/svg/oss.svg?react'
 import CardLink         from './CardLink.jsx'
-import { Tiles }        from '@abw/badger-react-ui'
-import Link from './Link.jsx'
+import Link             from './Link.jsx'
+import ExtLink          from './ExtLink.jsx'
+import { Icon, Tiles, Warning } from '@abw/badger-react-ui'
 
 export const App = () =>
   <div id="site">
@@ -21,24 +22,33 @@ export const App = () =>
       <div className="full-width conform-tablet grey bgc-50 pad-v-16">
         <BadgerPower/>
       </div>
-      <h1 className="x2 mar-v-8">
+      <h1 className="x2 mar-t-8 mar-b-none">
         Free software by Andy Wardley, for Andy Wardley
       </h1>
-      <div className="flex gap-4 start stack-tablet">
+      <div className="small fgc-50">(but you can use it too)</div>
+      <div className="flex gap-4 start stack-tablet mar-t-8">
         <div>
-          <p className="large mar-t-none">
-            This is Open Source Software and you&apos;re welcome to use it,
-            but be warned that it is also Opinionated and Selfish Software.
+          <p className="larger mar-t-none">
+            This is <span className="weight-600">Open Source Software</span> and
+            you&apos;re welcome to use it, but be warned that it is also{' '}
+            <span className="weight-600">Opinionated and Selfish Software</span>.
+            I wrote it for me to help me get my job done.
           </p>
-          <p>
-            I wrote it for me to help me get my job done. It&apos;s free sofware
-            (in both senses: <i>free speech</i> and <i>free beer</i>) but it
-            comes &quot;AS IS&quot; with no warranty and no support.
+          <p className="large">
+            It&apos;s free sofware
+            in <strike>both</strike> all three senses: <i>free beer</i>,{' '}
+            <i>free speech</i> and <i>free weekend</i>. You don&apos;t have
+            to pay anything to use it (that&apos;t the <i>free beer</i> part).
+            You can do what you like with it within reason (that&apos;t the{' '}
+            <i>free speech</i> part). But be warned that it comes comes
+            &quot;AS IS&quot; with no warranty and no support.  Sorry, but I
+            have no desire to give up my free time to provide free support to
+            help other people get their jobs done
+            <Icon name="asterisk-shrink=6-up=4" color="blue-50"/> (that&apos;s
+            the <i>free weekend</i> part).
           </p>
-          <p>
-            Sorry, but I don&apos;t have the time or inclination to help other
-            people get their jobs done, unless they&apos;re my paying clients,
-            work colleagues, family or close friends. So please be aware that
+          <p className="large">
+            So please be aware that
             you&apos;re on your own if you choose to use this software.
             If you&apos;re not comfortable with that then you probably
             shouldn&apos;t be using it.
@@ -48,7 +58,35 @@ export const App = () =>
           <OSS className="oss"/>
         </div>
       </div>
-      <div className="full-width conform-tablet yellow bgc-60 mar-t-4">
+      <div className="small mar-b-4 flex gap-2 bgc-100 pad-4">
+        <Icon name="asterisk-shrink=6-up=1" color="blue-50"/>{' '}
+        <div>
+          That&apos;s not to say I <i>won&apos;t</i> help if you ask
+          nicely, particularly if you&apos;re a hobbyist, working on another
+          Open Source project, or someone coding for a good cause.  But if
+          you&apos;re expecting professional support then you should expect
+          to pay for it.  Feel free to contact me for a quote.
+        </div>
+      </div>
+      <Warning
+        icon="exclamation"
+        border radius
+        title="People who share their source code do not owe you anything!"
+      >
+        <div className="flex space gap-2 middle">
+          <div>
+            Free as in <ExtLink href="https://en.wiktionary.org/wiki/free_as_in_beer" text="beer"/>,
+            free as in <ExtLink href="https://en.wiktionary.org/wiki/free_as_in_speech" text="speech"/>,
+            free as in <ExtLink href="https://freeasinweekend.org/open-source-open-mind" text="weekend"/>{' '}
+          </div>
+          <div className="text-right smaller">
+            <Icon name="thumb"/>{' '}
+            Thanks <ExtLink href="https://dylanbeattie.net/" text="Dylan"/>!
+          </div>
+        </div>
+      </Warning>
+
+      <div className="full-width conform-tablet yellow bgc-60 mar-t-12 mar-b-4">
         <h1 className="font-mono x3">Javascript</h1>
       </div>
       <h2 className="mar-b-1">Front End</h2>
@@ -97,7 +135,7 @@ export const App = () =>
 
 
 
-      <div className="full-width conform-tablet blue bgc-60 mar-t-4 mar-b-2">
+      <div className="full-width conform-tablet blue bgc-60 mar-t-12 mar-b-4">
         <h1 className="font-mono x3">Perl</h1>
       </div>
       <p>
@@ -118,6 +156,20 @@ export const App = () =>
         url="https://github.com/abw/badger-database/"
         text="The github repository for the Perl Badger Database modules"
       />
+
+      <div className="full-width conform-tablet purple bgc-60 mar-t-12 mar-b-4">
+        <h1 className="font-mono x3">Other Sites</h1>
+      </div>
+      <Link
+        url="https://abw.github.io/spinal-tapsum/"
+        text="Spinal Tapsum - it's one louder but none more black"
+      />
+
+      <footer className="full-width conform-tablet grey bgc-50 mar-t-20 mar-b-none pad-v-4 fgc-90">
+        <div>
+          &copy; Andy Wardley from the dawn of time until the end of days
+        </div>
+      </footer>
     </div>
   </div>
 
