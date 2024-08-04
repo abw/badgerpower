@@ -22,7 +22,7 @@ export const App = () =>
       <div className="full-width conform-tablet grey bgc-50 pad-v-16">
         <BadgerPower/>
       </div>
-      <h1 className="x2 mar-t-8 mar-b-none">
+      <h1 className="x2 mar-t-8 mar-b-1">
         Free software by Andy Wardley, for Andy Wardley
       </h1>
       <div className="small fgc-50">(but you can use it too)</div>
@@ -90,7 +90,7 @@ export const App = () =>
         <h1 className="font-mono x3">Javascript</h1>
       </div>
       <h2 className="mar-b-1">Front End</h2>
-      <div className="small">CSS, Javascript and React for the Browser</div>
+      <div className="small fgc-50">CSS, Javascript and React for the Browser</div>
       <Tiles gap="4" minWidth="256px" className="mar-v-6">
         <CardLink href="/badger-react-ui/" Picture={BadgerReactUI}/>
         <CardLink href="/badger-form/" Picture={BadgerForm}/>
@@ -100,7 +100,7 @@ export const App = () =>
       </Tiles>
 
       <h2 className="mar-b-1">Back End</h2>
-      <div className="small">Javascript for Node.js on the Server</div>
+      <div className="small fgc-50">Javascript for Node.js on the Server</div>
       <Tiles gap="4" minWidth="256px" className="mar-v-6">
         <CardLink href="/badger-js/" Picture={BadgerJS}/>
         <CardLink href="/badger-database-js/" Picture={BadgerDatabase}/>
@@ -108,14 +108,14 @@ export const App = () =>
       </Tiles>
 
       <h2 className="mar-b-1">Isomorphic</h2>
-      <div className="small">Javascript for Front and Back End</div>
+      <div className="small fgc-50">Javascript for Front and Back End</div>
       <Tiles gap="4" minWidth="256px" className="mar-v-6">
         <CardLink href="/badger-utils/" Picture={BadgerUtils}/>
         <CardLink href="/badger-timestamp/" Picture={BadgerTimestamp}/>
       </Tiles>
 
       <h2 className="mar-b-1">Other JS Modules</h2>
-      <div className="small">Sadly Lacking in Badgery Goodness</div>
+      <div className="small fgc-50">Sadly Lacking in Badgery Goodness</div>
       <p>
         These modules aren&apos;t badger-branded but come from the same badger
         sett.
@@ -158,11 +158,42 @@ export const App = () =>
       />
 
       <div className="full-width conform-tablet purple bgc-60 mar-t-12 mar-b-4">
+        <h1 className="font-mono x3">Professional Work</h1>
+      </div>
+      <p>
+        Some of the badger-powered commerical web sites I&apos;ve built in my
+        professional capacity as a web designer, developer and systems architect.
+      </p>
+      <Link
+        url="https://completelyretail.co.uk/"
+        text="Retail property marketing and letting"
+      />
+      <Link
+        url="https://lensesforhire.co.uk/"
+        text="Lenses and camera equipment for hire"
+      />
+      <Link
+        url="https://wardray-premise.com/"
+        text="Radiation shielding and medical imaging accessories"
+      />
+
+      <div className="full-width conform-tablet maroon bgc-60 mar-t-12 mar-b-4">
         <h1 className="font-mono x3">Other Sites</h1>
       </div>
+      <p>
+        Some of the non-commerical web sites I&apos;ve built Just For Fun&trade;
+      </p>
       <Link
         url="https://abw.github.io/spinal-tapsum/"
         text="Spinal Tapsum - it's one louder but none more black"
+      />
+      <Link
+        url="https://tt2.org/"
+        text="The Perl Template Toolkit is the grand-daddy of template processing software"
+      />
+      <Link
+        url="https://wardley.org/"
+        text="My (now very dated) personal web site, from the days when having a personal web site was a thing"
       />
 
       <footer className="full-width conform-tablet grey bgc-50 mar-t-20 mar-b-none pad-v-4 fgc-90">
