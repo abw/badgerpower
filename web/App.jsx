@@ -86,17 +86,26 @@ export const App = () =>
         </div>
       </Warning>
 
+      <div className="full-width conform-tablet orange bgc-60 mar-t-12 mar-b-4">
+        <h1 className="font-mono x3">CSS</h1>
+      </div>
+      <h2 className="mar-b-1">Design Systems</h2>
+      <div className="small fgc-50">Tools for the discerning web designer</div>
+
+      <Tiles gap="4" minWidth="256px" className="mar-v-6">
+        <CardLink href="/badger-css/" Picture={BadgerCSS}/>
+        <CardLink href="/badger-color/" Picture={BadgerColor}/>
+      </Tiles>
+
       <div className="full-width conform-tablet yellow bgc-60 mar-t-12 mar-b-4">
         <h1 className="font-mono x3">Javascript</h1>
       </div>
       <h2 className="mar-b-1">Front End</h2>
-      <div className="small fgc-50">CSS, Javascript and React for the Browser</div>
+      <div className="small fgc-50">Javascript and React for the Browser</div>
       <Tiles gap="4" minWidth="256px" className="mar-v-6">
         <CardLink href="/badger-react-ui/" Picture={BadgerReactUI}/>
         <CardLink href="/badger-form/" Picture={BadgerForm}/>
-        <CardLink href="/badger-css/" Picture={BadgerCSS}/>
         <CardLink href="/badger-icon/" Picture={BadgerIcon}/>
-        <CardLink href="/badger-color/" Picture={BadgerColor}/>
       </Tiles>
 
       <h2 className="mar-b-1">Back End</h2>
@@ -108,14 +117,14 @@ export const App = () =>
       </Tiles>
 
       <h2 className="mar-b-1">Isomorphic</h2>
-      <div className="small fgc-50">Javascript for Front and Back End</div>
+      <div className="small fgc-50">Javascript for Both Front and Back End</div>
       <Tiles gap="4" minWidth="256px" className="mar-v-6">
         <CardLink href="/badger-utils/" Picture={BadgerUtils}/>
         <CardLink href="/badger-timestamp/" Picture={BadgerTimestamp}/>
       </Tiles>
 
       <h2 className="mar-b-1">Other JS Modules</h2>
-      <div className="small fgc-50">Sadly Lacking in Badgery Goodness</div>
+      <div className="small fgc-50">What!  No Badger?</div>
       <p>
         These modules aren&apos;t badger-branded but come from the same badger
         sett.
