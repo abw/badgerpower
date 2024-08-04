@@ -40,7 +40,7 @@ export const App = () =>
             <i>free speech</i> and <i>free weekend</i>. You don&apos;t have
             to pay anything to use it (that&apos;s the <i>free beer</i> part).
             You can do what you like with it within reason (that&apos;s the{' '}
-            <i>free speech</i> part). But be warned that it comes comes
+            <i>free speech</i> part). But be warned that it comes
             &quot;AS IS&quot; with no warranty and no support.  Sorry, but I
             have no desire to give up my free time to provide free support to
             help other people get their jobs done
