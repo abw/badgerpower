@@ -204,6 +204,10 @@ export const App = () =>
         url="https://wardley.org/"
         text="My (now very dated) personal web site, from the days when having a personal web site was a thing"
       />
+      <Link
+        url="https://wordley.wardley.org/"
+        text="Word search for crossword solvers"
+      />
 
       <footer className="full-width conform-tablet grey bgc-50 mar-t-20 mar-b-none pad-v-4 fgc-90">
         <div>
