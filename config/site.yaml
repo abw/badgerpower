@@ -9,3 +9,6 @@ projects:
   - badger-filesystem-js
   - badger-utils
   - badger-timestamp
+  - react-context
+  - react-night-and-day
+  - react-one-louder

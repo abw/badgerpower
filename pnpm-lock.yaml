@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@abw/react-night-and-day':
+    specifier: ^0.0.6
+    version: 0.0.6(react-dom@18.3.1)(react@18.3.1)
   react:
     specifier: ^18.2.0
     version: 18.3.1
@@ -166,6 +169,16 @@ packages:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
     dev: true
+
+  /@abw/react-night-and-day@0.0.6(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-HVvyYuRxs8soPO1c/AFQqylx6uQqe9OHvxdJVVCzOtEtDYRFyM5NGY5Ob9ugUrSkg7o1Ru8p1vDfAJ+7/nyMvQ==}
+    peerDependencies:
+      react: ^18.2.0
+      react-dom: ^18.2.0
+    dependencies:
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    dev: false
 
   /@abw/react-one-louder@0.0.6:
     resolution: {integrity: sha512-UtXUwZVyXPGOzhA3eaOC6TaooWI4/dsAcwOoYnLntPFSIvt5kMBpsfo+F665z1jZ9g/KMtlLl3QVwYhsm+e3rA==}

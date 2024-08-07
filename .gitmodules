@@ -23,8 +23,14 @@
 	path = badger-utils
 	url = https://github.com/abw/badger-utils.git
 [submodule "badger-filesystem-js"]
-	path = badger-filesystem-js
+	path = badger-filesystem
 	url = https://github.com/abw/badger-filesystem-js.git
 [submodule "badger-database-js"]
-	path = badger-database-js
+	path = badger-database
 	url = https://github.com/abw/badger-database-js.git
+[submodule "react-context"]
+	path = react-context
+	url = https://github.com/abw/react-context.git
+[submodule "react-one-louder"]
+	path = react-one-louder
+	url = https://github.com/abw/react-one-louder.git

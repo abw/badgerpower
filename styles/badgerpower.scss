@@ -1,6 +1,7 @@
 @charset "utf-8";
 @import '@abw/badger-css/styles/badger.scss';
 @import '@abw/badger-react-ui/styles/badger-react-ui.scss';
+@import '@abw/react-night-and-day/styles/night-and-day.css';
 
 html {
   font-family: var(--font-sans);
@@ -11,17 +12,87 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root {
+  --color: var(--grey-10);
+  --background-color: var(--grey-100);
+  --header-color: var(--grey-80);
+  --header-back: var(--grey-30);
+  --header-link: var(--grey-80);
+  --header-hover: var(--grey-90);
+  --footer-color: var(--grey-80);
+  --footer-back: var(--grey-30);
+  --card-back: var(--grey-90);
+  --card-hover: var(--grey-95);
+}
+
+#{$dark-theme} {
+  --color: var(--grey-100);
+  --background-color: var(--grey-10);
+  --header-color: var(--grey-70);
+  --header-back: var(--grey-20);
+  --header-link: var(--grey-80);
+  --header-hover: var(--grey-90);
+  --footer-color: var(--grey-70);
+  --footer-back: var(--grey-20);
+  --card-back: var(--grey-20);
+  --card-hover: var(--grey-25);
+}
+
 #site {
   // padding-top: 2rem;
   // padding-bottom: 4rem;
+  color: var(--color);
+  background-color: var(--background-color);
+  header {
+    color: var(--header-color);
+    background-color: var(--header-back);
+    padding: 0.5rem 0;
+    a {
+      transition: color 0.3s;
+      color: var(--header-link);
+      &:hover {
+        color: var(--header-hover);
+      }
+    }
+    .night-and-day--switcher {
+      line-height: 1;
+      color: var(--grey-80);
+      transition: color 0.3s;
+      &:hover {
+        color: var(--grey-100);
+      }
+      svg {
+        height: 1.5rem;
+        margin: 0;
+        vertical-align: 0;
+      }
+    }
+  }
   footer {
+    color: var(--footer-color);
+    background-color: var(--footer-back);
     margin-top: 4rem;
   }
 }
 
 .has-svgs svg {
   path.name, path.badger {
-    fill: #3451b2;
+    fill: var(--blue-40);
+  }
+}
+
+.card {
+  background-color: var(--card-back);
+  transition: background-color 0.3s;
+  path.name, path.badger {
+    transition: fill 0.3s;
+    fill: var(--blue-40);
+  }
+  &:hover {
+    background-color: var(--card-hover);
+    path.name, path.badger {
+      fill: var(--blue-50);
+    }
   }
 }
 
@@ -78,5 +149,106 @@ a {
   color: var(--blue-50);
   &:hover {
     color: var(--blue-40);
+  }
+}
+
+#badger-color {
+  .badger {
+    fill: var(--grey-20);
+  }
+}
+#badger-css {
+  .badger {
+    fill: var(--blue-30);
+  }
+  .css {
+    fill: var(--blue-50);
+  }
+}
+#badger-react-ui {
+  .badger {
+    fill: var(--violet-30)
+  }
+  .reactui {
+    fill: var(--violet-60)
+  }
+}
+#badger-form {
+  .badger {
+    fill: var(--teal-30);
+  }
+  .form {
+    fill: var(--teal-50);
+
+  }
+}
+#badger-icon {
+  .badger {
+    fill: var(--orange-30);
+  }
+  .icon {
+    fill: var(--orange-50);
+  }
+}
+
+#{$dark-theme} {
+  #site header {
+
+    .night-and-day--switcher {
+      color: var(--grey-80);
+      transition: color 0.3s;
+      &:hover {
+        color: var(--grey-100);
+      }
+    }
+  }
+
+  #badger-color {
+    .badger {
+      fill: var(--grey-60);
+    }
+  }
+  #badger-css {
+    .badger {
+      fill: var(--blue-70);
+    }
+    .css {
+      fill: var(--blue-50);
+    }
+  }
+  #badger-react-ui {
+    .badger {
+      fill: var(--violet-70)
+    }
+    .reactui {
+      fill: var(--violet-55)
+    }
+  }
+  #badger-form {
+    .badger {
+      fill: var(--teal-70);
+    }
+    .form {
+      fill: var(--teal-50);
+
+    }
+  }
+  #badger-icon {
+    .badger {
+      fill: var(--orange-70);
+    }
+    .icon {
+      fill: var(--orange-50);
+    }
+  }
+  .card {
+    path.name, path.badger {
+      fill: var(--blue-50);
+    }
+    &:hover {
+      path.name, path.badger {
+        fill: var(--blue-60);
+      }
+    }
   }
 }

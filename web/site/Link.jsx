@@ -5,7 +5,7 @@ const Link = ({ url, text, children }) =>
     <a
       href={url} className="larger"
       target="_blank" rel="noreferrer"
-    >{url}</a>
+    >{url.match(/^\//) ? 'https://badgerpower.com' : ''}{url}</a>
     <p className="mar-t-none">
       {text || children}
     </p>

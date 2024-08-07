@@ -4,6 +4,7 @@
     "paths": {
       "@/src/*":    ["./web/src/*"],
       "@/site/*":   ["./web/site/*"],
+      "@/section/*":["./web/section/*"],
       "@/svg/*":    ["./web/svg/*"],
       "@/styles/*": ["./styles/*"],
     }
