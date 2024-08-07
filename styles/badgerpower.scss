@@ -19,8 +19,10 @@ body {
   --header-back: var(--grey-30);
   --header-link: var(--grey-80);
   --header-hover: var(--grey-90);
-  --footer-color: var(--grey-80);
-  --footer-back: var(--grey-30);
+  --hero-background-1: var(--grey-70);
+  --hero-background-2: var(--grey-50);
+  --footer-color: var(--grey-90);
+  --footer-back: var(--grey-50);
   --card-back: var(--grey-90);
   --card-hover: var(--grey-95);
 }
@@ -29,9 +31,11 @@ body {
   --color: var(--grey-100);
   --background-color: var(--grey-10);
   --header-color: var(--grey-70);
-  --header-back: var(--grey-20);
+  --header-back: var(--grey-10);
   --header-link: var(--grey-80);
   --header-hover: var(--grey-90);
+  --hero-background-1: var(--grey-30);
+  --hero-background-2: var(--grey-50);
   --footer-color: var(--grey-70);
   --footer-back: var(--grey-20);
   --card-back: var(--grey-20);
@@ -76,6 +80,11 @@ body {
     background-color: var(--footer-back);
     margin-top: 4rem;
   }
+}
+
+.hero {
+  // background-color: var(--hero-background-1);
+  background: linear-gradient(165deg, var(--hero-background-1) 0%, var(--hero-background-2) 100%);
 }
 
 .has-svgs svg {
@@ -196,7 +205,6 @@ a {
 
 #{$dark-theme} {
   #site header {
-
     .night-and-day--switcher {
       color: var(--grey-80);
       transition: color 0.3s;
