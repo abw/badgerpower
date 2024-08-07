@@ -34,3 +34,6 @@
 [submodule "react-one-louder"]
 	path = react-one-louder
 	url = https://github.com/abw/react-one-louder.git
+[submodule "react-night-and-day"]
+	path = react-night-and-day
+	url = https://github.com/abw/react-night-and-day.git
