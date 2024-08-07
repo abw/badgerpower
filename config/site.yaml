@@ -5,8 +5,8 @@ projects:
   - badger-form
   - badger-color
   - badger-js
-  - badger-database
-  - badger-filesystem
+  - badger-database-js
+  - badger-filesystem-js
   - badger-utils
   - badger-timestamp
   - react-context

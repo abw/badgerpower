@@ -23,10 +23,10 @@
 	path = badger-utils
 	url = https://github.com/abw/badger-utils.git
 [submodule "badger-filesystem-js"]
-	path = badger-filesystem
+	path = badger-filesystem-js
 	url = https://github.com/abw/badger-filesystem-js.git
 [submodule "badger-database-js"]
-	path = badger-database
+	path = badger-database-js
 	url = https://github.com/abw/badger-database-js.git
 [submodule "react-context"]
 	path = react-context

@@ -28,8 +28,8 @@ const Javascript = () =>
     <div className="small fgc-50">Javascript for Node.js on the Server</div>
     <Tiles gap="4" minWidth="256px" className="mar-v-6">
       <CardLink href="/badger-js/" Picture={BadgerJS}/>
-      <CardLink href="/badger-database/" Picture={BadgerDatabase}/>
-      <CardLink href="/badger-filesystem/" Picture={BadgerFilesystem}/>
+      <CardLink href="/badger-database-js/" Picture={BadgerDatabase}/>
+      <CardLink href="/badger-filesystem-js/" Picture={BadgerFilesystem}/>
     </Tiles>
 
     <h2 className="mar-b-1">Isomorphic</h2>
