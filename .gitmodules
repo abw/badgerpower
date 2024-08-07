@@ -37,3 +37,6 @@
 [submodule "react-night-and-day"]
 	path = react-night-and-day
 	url = https://github.com/abw/react-night-and-day.git
+[submodule "spinal-tapsum"]
+	path = spinal-tapsum
+	url = https://github.com/abw/spinal-tapsum.git

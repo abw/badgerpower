@@ -29,7 +29,7 @@ export const menuOptions = [
   { url: 'https://lensesforhire.co.uk/',    text: 'Lenses For Hire' },
   { url: 'https://wardray-premise.com/',    text:'Wardray Premise' },
   { heading: 'Other Sites' },
-  { url: 'https://abw.github.io/spinal-tapsum/', text: 'Spinal Tapsum' },
+  { url: '/spinal-tapsum/', text: 'Spinal Tapsum' },
   { url: 'https://tt2.org/', text: 'Perl Template Toolkit' },
   { url: 'https://wardley.org/', text: 'Personal web site' },
   { url: 'https://wordley.wardley.org/', text: 'Wordley word search' },
@@ -43,8 +43,8 @@ const Menu = () => {
   return (
     <DropdownMenu
       text='Menu'
-      iconRight="angle-left"
-      iconRightRotate={-90}
+      iconLeft="angle-right"
+      iconLeftRotate={90}
       options={menuOptions}
       onSelect={onSelect}
       optionClass="item no-hover indent-1"

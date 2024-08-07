@@ -54,6 +54,9 @@ body {
         color: var(--header-hover);
       }
     }
+    .trigger {
+      outline: none;
+    }
     .night-and-day--switcher {
       line-height: 1;
       color: var(--grey-80);

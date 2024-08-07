@@ -10,7 +10,7 @@ const OtherSites = () =>
       Some of the non-commerical web sites I&apos;ve built Just For Fun&trade;
     </p>
     <Link
-      url="https://abw.github.io/spinal-tapsum/"
+      url="/spinal-tapsum/"
       text="Spinal Tapsum - it's one louder but none more black"
     />
     <Link
