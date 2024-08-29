@@ -2,6 +2,7 @@ projects:
   - badger-css
   - badger-react-ui
   - badger-icon
+  - badger-website
   - badger-form
   - badger-color
   - badger-js

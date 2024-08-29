@@ -202,6 +202,14 @@ a {
     fill: var(--orange-50);
   }
 }
+#badger-website {
+  .badger {
+    fill: var(--pink-30);
+  }
+  .website {
+    fill: var(--pink-60);
+  }
+}
 
 #{$dark-theme} {
   #site header {
@@ -250,6 +258,14 @@ a {
     }
     .icon {
       fill: var(--orange-50);
+    }
+  }
+  #badger-website {
+    .badger {
+      fill: var(--pink-70);
+    }
+    .website {
+      fill: var(--pink-50);
     }
   }
   .card {

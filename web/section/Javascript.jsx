@@ -3,6 +3,7 @@ import BadgerDatabase   from '@/svg/badger-database.svg?react'
 import BadgerFilesystem from '@/svg/badger-filesystem.svg?react'
 import BadgerForm       from '@/svg/badger-form.svg?react'
 import BadgerIcon       from '@/svg/badger-icon.svg?react'
+import BadgerWebsite    from '@/svg/badger-website.svg?react'
 import BadgerJS         from '@/svg/badger-js.svg?react'
 import BadgerReactUI    from '@/svg/badger-react-ui.svg?react'
 import BadgerUtils      from '@/svg/badger-utils.svg?react'
@@ -22,6 +23,7 @@ const Javascript = () =>
       <CardLink href="/badger-react-ui/" Picture={BadgerReactUI}/>
       <CardLink href="/badger-form/" Picture={BadgerForm}/>
       <CardLink href="/badger-icon/" Picture={BadgerIcon}/>
+      <CardLink href="/badger-website/" Picture={BadgerWebsite}/>
     </Tiles>
 
     <h2 className="mar-b-1">Back End</h2>

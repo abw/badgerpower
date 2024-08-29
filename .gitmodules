@@ -40,3 +40,6 @@
 [submodule "spinal-tapsum"]
 	path = spinal-tapsum
 	url = https://github.com/abw/spinal-tapsum.git
+[submodule "badger-website"]
+	path = badger-website
+	url = https://github.com/abw/badger-website.git
