@@ -6,6 +6,7 @@ import BadgerIcon       from '@/svg/badger-icon.svg?react'
 import BadgerWebsite    from '@/svg/badger-website.svg?react'
 import BadgerJS         from '@/svg/badger-js.svg?react'
 import BadgerReactUI    from '@/svg/badger-react-ui.svg?react'
+import BadgerMaths      from '@/svg/badger-maths.svg?react'
 import BadgerUtils      from '@/svg/badger-utils.svg?react'
 import BadgerTimestamp  from '@/svg/badger-timestamp.svg?react'
 import CardLink         from '@/site/CardLink.jsx'
@@ -38,6 +39,7 @@ const Javascript = () =>
     <div className="small fgc-50">Javascript for Both Front and Back End</div>
     <Tiles gap="4" minWidth="256px" className="mar-v-6">
       <CardLink href="/badger-utils/" Picture={BadgerUtils}/>
+      <CardLink href="/badger-maths/" Picture={BadgerMaths}/>
       <CardLink href="/badger-timestamp/" Picture={BadgerTimestamp}/>
     </Tiles>
 

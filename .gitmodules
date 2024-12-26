@@ -43,3 +43,6 @@
 [submodule "badger-website"]
 	path = badger-website
 	url = https://github.com/abw/badger-website.git
+[submodule "badger-maths"]
+	path = badger-maths
+	url = https://github.com/abw/badger-maths

@@ -6,8 +6,8 @@ import jsconfigPaths    from 'vite-jsconfig-paths'
 import fs               from 'node:fs'
 
 const https = {
-  key:  fs.readFileSync('etc/badgerpower.local.wardley.org.key'),
-  cert: fs.readFileSync('etc/badgerpower.local.wardley.org.crt'),
+  key:  fs.readFileSync('etc/badgerpower.local.wardley.org-key.pem'),
+  cert: fs.readFileSync('etc/badgerpower.local.wardley.org.pem'),
 }
 
 export default defineConfig({
