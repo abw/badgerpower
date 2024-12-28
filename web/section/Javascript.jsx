@@ -8,6 +8,7 @@ import BadgerJS         from '@/svg/badger-js.svg?react'
 import BadgerReactUI    from '@/svg/badger-react-ui.svg?react'
 import BadgerMaths      from '@/svg/badger-maths.svg?react'
 import BadgerUtils      from '@/svg/badger-utils.svg?react'
+import BadgerCodecs     from '@/svg/badger-codecs.svg?react'
 import BadgerTimestamp  from '@/svg/badger-timestamp.svg?react'
 import CardLink         from '@/site/CardLink.jsx'
 import Link             from '@/site/Link.jsx'
@@ -32,15 +33,16 @@ const Javascript = () =>
     <Tiles gap="4" minWidth="256px" className="mar-v-6">
       <CardLink href="/badger-js/" Picture={BadgerJS}/>
       <CardLink href="/badger-database-js/" Picture={BadgerDatabase}/>
-      <CardLink href="/badger-filesystem-js/" Picture={BadgerFilesystem}/>
+      <CardLink href="/badger-filesystem-js/" Picture={BadgerFilesystem} ts/>
     </Tiles>
 
     <h2 className="mar-b-1">Isomorphic</h2>
     <div className="small fgc-50">Javascript for Both Front and Back End</div>
     <Tiles gap="4" minWidth="256px" className="mar-v-6">
-      <CardLink href="/badger-utils/" Picture={BadgerUtils}/>
-      <CardLink href="/badger-maths/" Picture={BadgerMaths}/>
-      <CardLink href="/badger-timestamp/" Picture={BadgerTimestamp}/>
+      <CardLink href="/badger-utils/" Picture={BadgerUtils} ts/>
+      <CardLink href="/badger-timestamp/" Picture={BadgerTimestamp} ts/>
+      <CardLink href="/badger-maths/" Picture={BadgerMaths} ts/>
+      <CardLink href="/badger-codecs-js/" Picture={BadgerCodecs} ts/>
     </Tiles>
 
     <h2 className="mar-b-1">Other JS Modules</h2>

@@ -46,3 +46,6 @@
 [submodule "badger-maths"]
 	path = badger-maths
 	url = https://github.com/abw/badger-maths
+[submodule "badger-codecs-js"]
+	path = badger-codecs-js
+	url = https://github.com/abw/badger-codecs-js

@@ -4,6 +4,7 @@ projects:
   - badger-icon
   - badger-website
   - badger-form
+  - badger-codecs-js
   - badger-color
   - badger-js
   - badger-database-js

@@ -25,6 +25,8 @@ body {
   --footer-back: var(--grey-50);
   --card-back: var(--grey-90);
   --card-hover: var(--grey-95);
+  --badger-color-1: #47a0ff;
+  --badger-color-2: #8f34fe;
 }
 
 #{$dark-theme} {
@@ -88,14 +90,20 @@ body {
 }
 
 .has-svgs svg {
-  path.name, path.badger {
-    fill: var(--blue-40);
+  --stop-1: var(--badger-color-1);
+  --stop-2: var(--badger-color-2);
+  .stop1 {
+    stop-color: var(--stop-1);
+  }
+  .stop2 {
+    stop-color: var(--stop-2);
   }
 }
 
 .card {
   background-color: var(--card-back);
   transition: background-color 0.3s;
+  position: relative;
   path.name, path.badger {
     transition: fill 0.3s;
     fill: var(--blue-40);
@@ -104,6 +112,29 @@ body {
     background-color: var(--card-hover);
     path.name, path.badger {
       fill: var(--blue-50);
+    }
+  }
+  &.ts {
+    // border: 1px solid red;
+    path.name, path.badger {
+      fill: url(#Gradient);
+    }
+  }
+  .tslogo {
+    --pos: 10px;
+    --size: 28px;
+    --tooltip-font-size: 0.8rem;
+    // --tooltip-padding: 0.125em 0.25em;
+    position: absolute;
+    bottom: var(--pos);
+    right: var(--pos);
+    &[data-tooltip]:before {
+      min-width: 6rem;
+    }
+    svg {
+      display: block;
+      width: var(--size);
+      height: var(--size);
     }
   }
 }
