@@ -10,8 +10,13 @@ import BadgerMaths      from '@/svg/badger-maths.svg?react'
 import BadgerUtils      from '@/svg/badger-utils.svg?react'
 import BadgerCodecs     from '@/svg/badger-codecs.svg?react'
 import BadgerTimestamp  from '@/svg/badger-timestamp.svg?react'
+import OneLouder        from '@/svg/one-louder.svg?react'
+import ReactContext     from '@/svg/react-context.svg?react'
+import NightAndDay      from '@/svg/night-and-day.svg?react'
+import ReactSometimes   from '@/svg/react-sometimes.svg?react'
 import CardLink         from '@/site/CardLink.jsx'
-import Link             from '@/site/Link.jsx'
+import MiniCardLink     from '@/site/MiniCardLink.jsx'
+// import Link             from '@/site/Link.jsx'
 import { Tiles }        from '@abw/badger-react-ui'
 
 const Javascript = () =>
@@ -51,22 +56,54 @@ const Javascript = () =>
       These modules aren&apos;t badger-branded but come from the same badger
       sett.
     </p>
+    <Tiles gap="4" minWidth="256px" className="mar-v-6">
+      <MiniCardLink
+        href="/react-context/"
+        title="React Context"
+        description="Wrapper of convenience for working with React contexts"
+        Picture={ReactContext}
+        ts
+      />
+      <MiniCardLink
+        href="/react-one-louder/"
+        title="React One Louder"
+        description="Theming engine for React components"
+        Picture={OneLouder}
+        ts
+      />
+      <MiniCardLink
+        href="/react-night-and-day/"
+        title="React Night and Day"
+        description="React library for switching between light and dark themes"
+        Picture={NightAndDay}
+        ts
+      />
+      <MiniCardLink
+        href="https://github.com/abw/react-sometimes/"
+        title="React Sometimes"
+        description="Conditional rendering of React components based on a date/time range"
+        Picture={ReactSometimes}
+        ts
+      />
+    </Tiles>
+    {/*
     <Link
       url="/react-context/"
       text="Wrapper of convenience for working with React contexts"
     />
     <Link
-      url="/react-night-and-day/"
+      url="/react-one-louder/"
       text="Theming engine for React components"
     />
     <Link
-      url="/react-one-louder/"
+      url="/react-night-and-day/"
       text="React library for switching between light and dark themes"
     />
     <Link
       url="https://github.com/abw/react-sometimes"
       text="Conditional rendering of React components based on a date/time range"
     />
+    */}
   </>
 
 export default Javascript
