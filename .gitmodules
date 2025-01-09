@@ -1,51 +1,51 @@
 [submodule "badger-css"]
-	path = badger-css
+	path = modules/badger-css
 	url = https://github.com/abw/badger-css.git
 [submodule "badger-react-ui"]
-	path = badger-react-ui
+	path = modules/badger-react-ui
 	url = https://github.com/abw/badger-react-ui.git
 [submodule "badger-form"]
-	path = badger-form
+	path = modules/badger-form
 	url = https://github.com/abw/badger-form.git
 [submodule "badger-icon"]
-	path = badger-icon
+	path = modules/badger-icon
 	url = https://github.com/abw/badger-icon.git
 [submodule "badger-color"]
-	path = badger-color
+	path = modules/badger-color
 	url = https://github.com/abw/badger-color.git
 [submodule "badger-js"]
-	path = badger-js
+	path = modules/badger-js
 	url = https://github.com/abw/badger-js.git
 [submodule "badger-timestamp"]
-	path = badger-timestamp
+	path = modules/badger-timestamp
 	url = https://github.com/abw/badger-timestamp.git
 [submodule "badger-utils"]
-	path = badger-utils
+	path = modules/badger-utils
 	url = https://github.com/abw/badger-utils.git
 [submodule "badger-filesystem-js"]
-	path = badger-filesystem-js
+	path = modules/badger-filesystem-js
 	url = https://github.com/abw/badger-filesystem-js.git
 [submodule "badger-database-js"]
-	path = badger-database-js
+	path = modules/badger-database-js
 	url = https://github.com/abw/badger-database-js.git
 [submodule "react-context"]
-	path = react-context
+	path = modules/react-context
 	url = https://github.com/abw/react-context.git
 [submodule "react-one-louder"]
-	path = react-one-louder
+	path = modules/react-one-louder
 	url = https://github.com/abw/react-one-louder.git
 [submodule "react-night-and-day"]
-	path = react-night-and-day
+	path = modules/react-night-and-day
 	url = https://github.com/abw/react-night-and-day.git
 [submodule "spinal-tapsum"]
-	path = spinal-tapsum
+	path = modules/spinal-tapsum
 	url = https://github.com/abw/spinal-tapsum.git
 [submodule "badger-website"]
-	path = badger-website
+	path = modules/badger-website
 	url = https://github.com/abw/badger-website.git
 [submodule "badger-maths"]
-	path = badger-maths
+	path = modules/badger-maths
 	url = https://github.com/abw/badger-maths
 [submodule "badger-codecs-js"]
-	path = badger-codecs-js
+	path = modules/badger-codecs-js
 	url = https://github.com/abw/badger-codecs-js
