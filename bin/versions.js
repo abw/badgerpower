@@ -4,6 +4,7 @@
 import { bin } from '@abw/badger-filesystem'
 
 const root = bin(import.meta.url).up()
+const mods = root.dir('modules')
 const site = await root.file('config/site.yaml', { codec: 'auto' }).read()
 const versions = { }
 
@@ -16,6 +17,6 @@ await vfile.write(versions)
 console.log(`Wrote versions to ${vfile}`)
 
 async function siteVersion(path) {
-  const pkg = await root.dir(path).file('package.json', { codec: 'auto' }).read()
+  const pkg = await mods.dir(path).file('package.json', { codec: 'auto' }).read()
   return pkg.version
 }
