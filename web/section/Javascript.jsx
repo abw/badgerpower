@@ -84,7 +84,7 @@ const Javascript = () =>
         title="React Night and Day"
         description="React library for switching between light and dark themes"
         Picture={NightAndDay}
-        // ts
+        ts
       />
       <MiniCardLink
         href="https://github.com/abw/react-sometimes/"
@@ -94,24 +94,6 @@ const Javascript = () =>
         ts
       />
     </Tiles>
-    {/*
-    <Link
-      url="/react-context/"
-      text="Wrapper of convenience for working with React contexts"
-    />
-    <Link
-      url="/react-one-louder/"
-      text="Theming engine for React components"
-    />
-    <Link
-      url="/react-night-and-day/"
-      text="React library for switching between light and dark themes"
-    />
-    <Link
-      url="https://github.com/abw/react-sometimes"
-      text="Conditional rendering of React components based on a date/time range"
-    />
-    */}
   </>
 
 export default Javascript
