@@ -49,3 +49,6 @@
 [submodule "badger-codecs-js"]
 	path = modules/badger-codecs-js
 	url = https://github.com/abw/badger-codecs-js
+[submodule "modules/react-model"]
+	path = modules/react-model
+	url = https://github.com/abw/react-model
