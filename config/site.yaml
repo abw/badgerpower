@@ -12,6 +12,7 @@ projects:
   - badger-utils
   - badger-timestamp
   - badger-maths
+  - react-model
   - react-context
   - react-night-and-day
   - react-one-louder

@@ -12,6 +12,7 @@ import BadgerCodecs     from '@/svg/badger-codecs.svg?react'
 import BadgerTimestamp  from '@/svg/badger-timestamp.svg?react'
 import OneLouder        from '@/svg/one-louder.svg?react'
 import ReactContext     from '@/svg/react-context.svg?react'
+import ReactModel       from '@/svg/react-model.svg?react'
 import NightAndDay      from '@/svg/night-and-day.svg?react'
 import ReactSometimes   from '@/svg/react-sometimes.svg?react'
 import CardLink         from '@/site/CardLink.jsx'
@@ -58,6 +59,13 @@ const Javascript = () =>
     </p>
     <Tiles gap="4" minWidth="256px" className="mar-v-6">
       <MiniCardLink
+        href="/react-model/"
+        title="React Model"
+        description="Simple state model using React context"
+        Picture={ReactModel}
+        ts
+      />
+      <MiniCardLink
         href="/react-context/"
         title="React Context"
         description="Wrapper of convenience for working with React contexts"
@@ -76,7 +84,7 @@ const Javascript = () =>
         title="React Night and Day"
         description="React library for switching between light and dark themes"
         Picture={NightAndDay}
-        ts
+        // ts
       />
       <MiniCardLink
         href="https://github.com/abw/react-sometimes/"
