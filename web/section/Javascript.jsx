@@ -30,7 +30,7 @@ const Javascript = () =>
     <Tiles gap="4" minWidth="256px" className="mar-v-6">
       <CardLink href="/badger-react-ui/" Picture={BadgerReactUI}/>
       <CardLink href="/badger-form/" Picture={BadgerForm}/>
-      <CardLink href="/badger-icon/" Picture={BadgerIcon}/>
+      <CardLink href="/badger-icon/" Picture={BadgerIcon} ts/>
       <CardLink href="/badger-website/" Picture={BadgerWebsite}/>
     </Tiles>
 
